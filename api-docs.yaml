@@ -1,0 +1,87 @@
+openapi: 3.0.1
+info:
+  title: OpenAPI definition
+  version: v0
+servers:
+- url: http://my-web-app.default.apps.34.139.6.200.nip.io
+  description: TAP App URL
+paths:
+  "/":
+    get:
+      tags:
+      - hello-controller
+      operationId: index
+      responses:
+        '200':
+          description: OK
+          content:
+            "*/*":
+              schema:
+                type: string
+    put:
+      tags:
+      - hello-controller
+      operationId: index_1
+      responses:
+        '200':
+          description: OK
+          content:
+            "*/*":
+              schema:
+                type: string
+    post:
+      tags:
+      - hello-controller
+      operationId: index_2
+      responses:
+        '200':
+          description: OK
+          content:
+            "*/*":
+              schema:
+                type: string
+    delete:
+      tags:
+      - hello-controller
+      operationId: index_6
+      responses:
+        '200':
+          description: OK
+          content:
+            "*/*":
+              schema:
+                type: string
+    options:
+      tags:
+      - hello-controller
+      operationId: index_3
+      responses:
+        '200':
+          description: OK
+          content:
+            "*/*":
+              schema:
+                type: string
+    head:
+      tags:
+      - hello-controller
+      operationId: index_5
+      responses:
+        '200':
+          description: OK
+          content:
+            "*/*":
+              schema:
+                type: string
+    patch:
+      tags:
+      - hello-controller
+      operationId: index_4
+      responses:
+        '200':
+          description: OK
+          content:
+            "*/*":
+              schema:
+                type: string
+components: {}
