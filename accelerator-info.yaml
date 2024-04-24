@@ -1,0 +1,13 @@
+id: e52db018-38ba-4127-87ad-c29de2c9d34f
+name: tanzu-java-web-app
+timestamp: 2024-04-24T16:02:18.405342Z
+source: VSCODE
+username: risbergt
+options:
+  projectName: my-web-app
+  buildTool: maven
+  ide: intellij
+  springBootVersion: 3.1
+  nativeBuild: false
+  javaVersion: 17
+  includeBuildToolWrapper: true
